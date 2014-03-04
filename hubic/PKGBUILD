@@ -8,7 +8,8 @@ url="https://hubic.com/"
 license=('custom')
 provides=('hubic')
 depends=('mono>=2.10')
-changelog="Changelog"
+install=hubic.install
+changelog=Changelog
 source=(http://mir7.ovh.net/ovh-applications/hubic/hubiC-Linux/1.1.13/hubiC-Linux-${pkgver}-linux.tar.gz)
 md5sums=('a2596f74aa27874adf37d78657d64b26')
 
